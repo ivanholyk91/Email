@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<resources>
+  <style name="BlueHintText" parent="TextAppearance.AppCompat">
+    <item name="colorAccent">@color/blue</item>
+    <item name="colorControlActivated">@color/red</item>
+  </style>
+  <style name="RedHintText" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:textColor">@color/lightRed</item>
+  </style>
+</resources>
+<!--<style name="green_btn">
+  <item name="android:background">@drawable/btn_ripple_effect</item>
+</style>-->

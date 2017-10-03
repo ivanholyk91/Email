@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">Test_Project.Android</string>
+  <string name="errorEmail">Please check your Email adress correctly </string>
+  <string name="hintTitle">Management company</string>
+  <string name="hintAppartament">Appartament example</string>
+  <string name="hintResident">Resident company</string>
+  <string name="txtContinue">Continue</string>
+  <string name="sign_in">Sign In </string>
+  <string name="sign_up">Sign Up </string>
+  <string name="pg1">1 of 2</string>
+  <string name="pg2">2 of 2</string>
+  <string name="forgot_password">Forgot password?</string>
+</resources>
