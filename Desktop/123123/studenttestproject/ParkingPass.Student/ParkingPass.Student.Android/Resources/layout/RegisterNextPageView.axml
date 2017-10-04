@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/emailHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@drawable/textinp_layout"
+            android:id="@+id/regEmail"
+            android:hint="Email adress"
+            android:maxLength="50"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/blue"
+            android:textColor="@android:color/black" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/passwordHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/regPassword"
+            android:hint="Password"
+            android:maxLength="50"
+            fontPath="fonts/Pasifico.ttf"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:backgroundTint="@drawable/textinp_layout"
+            android:textColorHint="@color/blue"
+            android:textColor="@android:color/black" />
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <CheckBox
+            android:text="I agree with"
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp" />
+        <TextView
+            android:text="Terms and Conditions"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:gravity="center" />
+    </LinearLayout>
+    <Button
+        android:text="@string/sign_up"
+        android:layout_width="268dp"
+        android:layout_height="47dp"
+        android:id="@+id/btnConfirm"
+        android:clickable="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_green"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white" />
+</LinearLayout>

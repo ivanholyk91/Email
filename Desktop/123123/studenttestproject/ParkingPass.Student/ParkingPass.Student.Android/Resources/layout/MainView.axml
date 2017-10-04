@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:paddingRight="200dp"
+        android:src="@drawable/main_image" />
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:paddingLeft="39dp"
+        android:paddingRight="39dp">
+    <!--android:scaleType="centerCrop"-->
+    <!--android:scaleType="matrix"-->
+    <!--android:background="@drawable/mainImage"-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/logo_splash"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitCenter"
+            android:cropToPadding="true"
+            android:paddingBottom="50dp"
+            android:paddingLeft="39dp"
+            android:paddingRight="39dp" />
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="35dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnSignUp"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:background="@drawable/ripple_effect_green"
+                android:layout_height="47dp"
+                android:textColor="@color/white"
+                android:text="@string/sign_up"
+                android:layout_marginBottom="20dp" />
+            <Button
+                android:id="@+id/btnSignIn"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="47dp"
+                android:background="@drawable/btn_red"
+                android:textColor="@color/white"
+                android:text="@string/sign_in" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>
